@@ -1120,8 +1120,9 @@ export default function App() {
                   <h2 className="text-xl font-bold flex items-center gap-2">Analisis dan Evaluasi Jabatan</h2>
                   <div className="text-blue-100 text-sm mt-1">
                     <ol className="list-decimal pl-4 space-y-1">
-                      <li>Tentukan nama dan nilai jabatan.</li>
                       <li>Tentukan kriteria dan bobot penilaian.</li>
+                      <li>Tentukan nama dan nilai jabatan.</li>
+                      <li>Tentukan interval skor atau target golongan.</li>
                     </ol>
                   </div>
                 </div>
