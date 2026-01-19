@@ -832,7 +832,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 font-sans text-slate-800 pb-20 print:p-0 print:m-0 print:bg-white">
+    <div className="min-h-screen bg-slate-100 font-sans text-slate-800 print:p-0 print:m-0 print:bg-white">
       <style>{`
         @media print {
             @page {
@@ -885,7 +885,7 @@ export default function App() {
 
           <div className="hidden md:flex gap-1 bg-slate-800 p-1.5 rounded-lg border border-slate-700">
             {[
-              { id: 'intro', label: '1. Pendahuluan & Teori', icon: Info },
+              { id: 'intro', label: '1. Pengantar & Teori', icon: Info },
               { id: 'prep', label: '2. Analisis & Evaluasi', icon: BookOpen },
               { id: 'calculator', label: '3. Struktur & Skala Upah', icon: Layers },
               { id: 'report', label: '4. Laporan', icon: FileText }
@@ -904,7 +904,7 @@ export default function App() {
         {mobileMenuOpen && (
           <div className="absolute top-16 left-0 w-full bg-slate-800 border-t border-slate-700 shadow-xl z-40">
             {[
-              { id: 'intro', label: '1. Pendahuluan & Teori', icon: Info },
+              { id: 'intro', label: '1. Pengantar & Teori', icon: Info },
               { id: 'prep', label: '2. Analisis & Evaluasi', icon: BookOpen },
               { id: 'calculator', label: '3. Struktur & Skala Upah', icon: Layers },
               { id: 'report', label: '4. Laporan', icon: FileText }
